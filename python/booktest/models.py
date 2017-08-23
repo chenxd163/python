@@ -26,6 +26,7 @@ class HeroInfo(models.Model):
     # 英雄对应的书籍
     hbook = models.ForeignKey('BookInfo')
 
-    # def __str__(self):
-    #     return self.name
+    def __str__(self):
+        return self.name
+
 
